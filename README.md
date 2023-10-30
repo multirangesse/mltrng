@@ -5,9 +5,6 @@
 
 <h1 align="center">Organizing Records for Retrieval in Multi-Dimensional Range Searchable Encryption</h1>
 
-<p align="center"> Implementation of Armor Project
-    <br> 
-</p>
 
 ## 📝 Table of Contents
 
