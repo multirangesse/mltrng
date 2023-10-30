@@ -21,10 +21,6 @@ This project has the capability to encrypt multidimensional scientific data.
 In order to run the code, you must have Python 3.10.12 or newer versions installed. You can find the installation source [here][def].<br />
 The `req.txt` file located in the main directory lists all the required dependencies for executing the project. You can install these dependencies by using the command `pip install -r req.txt`.
 
-## 🏁 Command Line Arguments <a name = "Command_Line_Arguments"></a>
-
-
-These command line arguments provide options and functionality for the Python script.
 
 
 
