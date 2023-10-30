@@ -23,52 +23,6 @@ The `req.txt` file located in the main directory lists all the required dependen
 
 ## 🏁 Command Line Arguments <a name = "Command_Line_Arguments"></a>
 
-The following command line arguments can be used in the script:
-
-- `-dg` or `--datagen`:
-   - Default value: None
-   - Choices: ['txt', 'hdf5', 'kdtree']
-   - Description: Specifies the type of data generation. Choose from 'txt', 'hdf5', or 'kdtree'.
-
-- `-en` or `--encrypt`:
-   - Action: BooleanOptionalAction
-   - Description: Enables encryption. Use this flag to enable encryption.
-
-- `-kd` or `--kdisk`:
-   - Action: BooleanOptionalAction
-   - Description: Enables kdtree disk-based indexing. Use this flag to enable k-disk indexing.
-
-- `-sh` or `--shuffle`:
-   - Default value: None
-   - Choices: ['sh', 'sh0', 'sh1', 'sh2']
-   - Description: Specifies the shuffling method. Choose from 'sh', 'sh0', 'sh1', or 'sh2'.
-
-- `-re` or `--report`:
-   - Action: BooleanOptionalAction
-   - Description: Enables reporting. Use this flag to enable reporting.
-
-- `-te` or `--test`:
-   - Action: BooleanOptionalAction
-   - Description: Enables testing. Use this flag to enable testing.
-
-- `-dd` or `--datadim`:
-   - Type: int
-   - Number of arguments: 5
-   - Required: False
-   - Default value: [4, 10, 10, 10, 10]
-   - Description: Specifies the dimensions of the data. Provide five integers as arguments.
-
-- `-qu` or `--query`:
-   - Default value: None
-   - Choices: ['txt', 'hdf5', 'kdtree']
-   - Description: Specifies the type of query. Choose from 'txt', 'hdf5', or 'kdtree'.
-
-- `-rq` or `--rangequery`:
-   - Type: int
-   - Number of arguments: 8
-   - Required: False
-   - Default value: [0, 5, 1, 6, 0, 2, 0, 10]
-   - Description: Specifies the range query parameters. Provide eight integers as arguments.
 
 These command line arguments provide options and functionality for the Python script.
 
