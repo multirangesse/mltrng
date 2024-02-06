@@ -10,7 +10,7 @@
 
 - [About](#about)
 - [Dependencies](#dependencies)
-- [Command Line Arguments](#experiments)
+- [Running the Experiments](#experiments)
 
 
 ##  About <a name = "about"></a>
@@ -33,21 +33,28 @@ You can change the configurations for the experiments in each individual experim
 The first element in datadim is the number of dimensions, and the following elements are the dimensions' sizes. <br />
 sample_num is the number of sample random queries of the query shape.
 
+### Generating Synthetic dataset
+Before running the query experiments we should generate synthetic datasets based on our desired configurations
+
+
 ### Isotropic queries
 Run the command python3 src/isoqreport.py<br />
-To change the configuration of the dataset and slab size: change the following configurations in isoqreport.py:
+To change the configuration of the dataset and slab size: change the following configurations in isoqreport.py.
 
 ### Bisected Anisotropic queries
 Run the command python3 src/baqreport.py<br />
-To change the configuration of the dataset and slab size, change the configurations in isoqreport.py:
+To change the configuration of the dataset and slab size, change the configurations in isoqreport.py.
 
 ### Gradual Anisotropic queries
 Run the command python3 src/gaqreport.py<br />
-To change the configuration of the dataset and slab size, change the configurations in isoqreport.py:
+To change the configuration of the dataset and slab size, change the configurations in isoqreport.py.
 
 ### Outlier queries
 Run the command python3 src/oaqreport.py<br />
-To change the configuration of the dataset and slab size, change the following configurations in isoqreport.py:
+To change the configuration of the dataset and slab size, change the following configurations in isoqreport.py.
+
+### reports:
+The generated reports in .csv format will be stored in sample_data/ folder.
 
 
 
