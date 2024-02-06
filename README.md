@@ -25,28 +25,28 @@ The `req.txt` file located in the main directory lists all the required dependen
 
 
 ### Configurations
-You can change the configurations for the experiments in each individual experiment file based on the following parameters:
-    sample_num = 1000
-    datadim = [Number of dimensions,D1_size, D2_size, D3_size, D4_size]
-    slabdim = [4, 4, 4, 4]--> For slab-based shuffling
-    slab_size = 256 --> For row-based shuffling
-The first element in datadim is the number of dimensions, and the following elements are the dimensions' sizes. 
+You can change the configurations for the experiments in each individual experiment file based on the following parameters:<br />
+    sample_num = 1000<br />
+    datadim = [Number of dimensions,D1_size, D2_size, D3_size, D4_size]<br />
+    slabdim = [4, 4, 4, 4]--> For slab-based shuffling<br />
+    slab_size = 256 --> For row-based shuffling<br />
+The first element in datadim is the number of dimensions, and the following elements are the dimensions' sizes. <br />
 sample_num is the number of sample random queries of the query shape.
 
 ### Isotropic queries
-Run the command python3 src/isoqreport.py
+Run the command python3 src/isoqreport.py<br />
 To change the configuration of the dataset and slab size: change the following configurations in isoqreport.py:
 
 ### Bisected Anisotropic queries
-Run the command python3 src/baqreport.py
+Run the command python3 src/baqreport.py<br />
 To change the configuration of the dataset and slab size, change the configurations in isoqreport.py:
 
 ### Gradual Anisotropic queries
-Run the command python3 src/gaqreport.py
+Run the command python3 src/gaqreport.py<br />
 To change the configuration of the dataset and slab size, change the configurations in isoqreport.py:
 
 ### Outlier queries
-Run the command python3 src/oaqreport.py
+Run the command python3 src/oaqreport.py<br />
 To change the configuration of the dataset and slab size, change the following configurations in isoqreport.py:
 
 
