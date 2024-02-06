@@ -34,7 +34,7 @@ The first element in datadim is the number of dimensions, and the following elem
 sample_num is the number of sample random queries of the query shape.
 
 ### Generating Synthetic dataset
-Before running the query experiments we should generate synthetic datasets based on our desired configurations.<br />
+Before running the query experiments we should generate synthetic datasets based on the desired configurations. You can set your desired dataset settings as described in the configurations sections in the construction.py file<br />
 First, create a new folder with the name `sample_data` in the root directory of the project.<br />
 Run the `python3 src/construction.py` ro generate all the mappings, encryption, indexing, and the synthetic dataset.
 
